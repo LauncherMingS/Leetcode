@@ -48,20 +48,15 @@
             for (int i = 0; i < array.Length; ++i)
                 array[i] = element;
         }
-        public static string PrintIList<T>(IList<T> list)
+        public static string PrintCollection<T>(IEnumerable<T> collection)
         {
-            if (list == null)
+            if (collection == null)
             {
-                Console.WriteLine("IList is null!!!");
+                Console.WriteLine("Collection is null!!!");
                 return "null";
             }
-            if (list.Count == 0)
-            {
-                Console.WriteLine("IList is empty!!!");
-                return "[]";
-            }
 
-            string formattingString = "[" + string.Join(", ", list) + "]";
+            string formattingString = "[" + string.Join(", ", collection) + "]";
             Console.WriteLine(formattingString);
             return formattingString;
         }
