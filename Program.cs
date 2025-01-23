@@ -7,8 +7,11 @@
             //var _2017 = new _2017GridGame();
             //_2017.Test();
 
-            var _1765 = new _1765MapOfHightestPeak();
-            _1765.Test();
+            //var _1765 = new _1765MapOfHightestPeak();
+            //_1765.Test();
+
+            var _1267 = new _1267CountServersThatCommunicate();
+            _1267.Test();
 
             Console.Read();
         }
