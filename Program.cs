@@ -10,8 +10,11 @@
             //var _1765 = new _1765MapOfHightestPeak();
             //_1765.Test();
 
-            var _1267 = new _1267CountServersThatCommunicate();
-            _1267.Test();
+            //var _1267 = new _1267CountServersThatCommunicate();
+            //_1267.Test();
+
+            var _802 = new _802FindEventualSafeStates();
+            _802.Test();
 
             Console.Read();
         }
