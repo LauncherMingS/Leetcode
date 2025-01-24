@@ -13,8 +13,11 @@
             //var _1267 = new _1267CountServersThatCommunicate();
             //_1267.Test();
 
-            var _802 = new _802FindEventualSafeStates();
-            _802.Test();
+            //var _802 = new _802FindEventualSafeStates();
+            //_802.Test();
+
+            var _407 = new _407TrappingRainWaterTwo();
+            _407.Test();
 
             Console.Read();
         }
