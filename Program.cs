@@ -16,8 +16,11 @@
             //var _802 = new _802FindEventualSafeStates();
             //_802.Test();
 
-            var _407 = new _407TrappingRainWaterTwo();
-            _407.Test();
+            //var _407 = new _407TrappingRainWaterTwo();
+            //_407.Test();
+
+            var _3105 = new _3105LongestStrictlyIncreasingOrStrictlyDecreasingSubarray();
+            _3105.Test();
 
             Console.Read();
         }
