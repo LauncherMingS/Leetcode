@@ -19,8 +19,11 @@
             //var _407 = new _407TrappingRainWaterTwo();
             //_407.Test();
 
-            var _3105 = new _3105LongestStrictlyIncreasingOrStrictlyDecreasingSubarray();
-            _3105.Test();
+            //var _3105 = new _3105LongestStrictlyIncreasingOrStrictlyDecreasingSubarray();
+            //_3105.Test();
+
+            var _1800 = new _1800MaximumAscendingSubarraySum();
+            _1800.Test();
 
             Console.Read();
         }
