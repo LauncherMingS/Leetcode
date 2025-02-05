@@ -22,8 +22,11 @@
             //var _3105 = new _3105LongestStrictlyIncreasingOrStrictlyDecreasingSubarray();
             //_3105.Test();
 
-            var _1800 = new _1800MaximumAscendingSubarraySum();
-            _1800.Test();
+            //var _1800 = new _1800MaximumAscendingSubarraySum();
+            //_1800.Test();
+
+            var _1790 = new _1790CheckIfOneStringSwapCanMakeStringsEqual();
+            _1790.Test();
 
             Console.Read();
         }
