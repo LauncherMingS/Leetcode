@@ -25,8 +25,11 @@
             //var _1800 = new _1800MaximumAscendingSubarraySum();
             //_1800.Test();
 
-            var _1790 = new _1790CheckIfOneStringSwapCanMakeStringsEqual();
-            _1790.Test();
+            //var _1790 = new _1790CheckIfOneStringSwapCanMakeStringsEqual();
+            //_1790.Test();
+
+            var _1726 = new _1726TupleWithSameProduct();
+            _1726.Test();
 
             Console.Read();
         }
