@@ -28,8 +28,11 @@
             //var _1790 = new _1790CheckIfOneStringSwapCanMakeStringsEqual();
             //_1790.Test();
 
-            var _1726 = new _1726TupleWithSameProduct();
-            _1726.Test();
+            //var _1726 = new _1726TupleWithSameProduct();
+            //_1726.Test();
+
+            var _3160 = new _3160FindTheNumberOfDistinctColorsAmongTheBalls();
+            _3160.Test();
 
             Console.Read();
         }
