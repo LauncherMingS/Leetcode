@@ -1,4 +1,6 @@
-﻿namespace Leetcode
+﻿using System.Text;
+
+namespace Leetcode
 {
     internal class Program
     {
@@ -34,8 +36,11 @@
             //var _3160 = new _3160FindTheNumberOfDistinctColorsAmongTheBalls();
             //_3160.Test();
 
-            var _2349 = new _2349DesignANumberContainerSystem();
-            _2349.Test();
+            //var _2349 = new _2349DesignANumberContainerSystem();
+            //_2349.Test();
+
+            var _3174 = new _3174CleanDigits();
+            _3174.Test();
 
             Console.Read();
         }
