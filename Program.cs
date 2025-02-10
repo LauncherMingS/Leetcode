@@ -31,8 +31,11 @@
             //var _1726 = new _1726TupleWithSameProduct();
             //_1726.Test();
 
-            var _3160 = new _3160FindTheNumberOfDistinctColorsAmongTheBalls();
-            _3160.Test();
+            //var _3160 = new _3160FindTheNumberOfDistinctColorsAmongTheBalls();
+            //_3160.Test();
+
+            var _2349 = new _2349DesignANumberContainerSystem();
+            _2349.Test();
 
             Console.Read();
         }
