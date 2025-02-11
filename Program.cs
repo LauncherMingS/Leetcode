@@ -39,8 +39,11 @@ namespace Leetcode
             //var _2349 = new _2349DesignANumberContainerSystem();
             //_2349.Test();
 
-            var _3174 = new _3174CleanDigits();
-            _3174.Test();
+            //var _3174 = new _3174CleanDigits();
+            //_3174.Test();
+
+            var _1910 = new _1910RemoveAllOccurrencesOfASubstring();
+            _1910.Test();
 
             Console.Read();
         }
