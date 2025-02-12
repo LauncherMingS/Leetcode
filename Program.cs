@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System.Numerics;
+using System.Runtime.Intrinsics.X86;
+using System.Text;
 
 namespace Leetcode
 {
@@ -42,8 +44,11 @@ namespace Leetcode
             //var _3174 = new _3174CleanDigits();
             //_3174.Test();
 
-            var _1910 = new _1910RemoveAllOccurrencesOfASubstring();
-            _1910.Test();
+            //var _1910 = new _1910RemoveAllOccurrencesOfASubstring();
+            //_1910.Test();
+
+            var _2342 = new _2342MaxSumOfAPairWithEqualSumOfDigits();
+            _2342.Test();
 
             Console.Read();
         }
