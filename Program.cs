@@ -1,4 +1,5 @@
-﻿using System.Numerics;
+﻿using System.Diagnostics;
+using System.Numerics;
 using System.Runtime.Intrinsics.X86;
 using System.Text;
 
@@ -6,6 +7,7 @@ namespace Leetcode
 {
     internal class Program
     {
+        private static Stopwatch stopwatch;
         static void Main(string[] args)
         {
             //var _2017 = new _2017GridGame();
@@ -105,6 +107,23 @@ namespace Leetcode
             string formattingString = "[" + string.Join(", ", collection) + "]";
             Console.WriteLine(formattingString);
             return formattingString;
+        }
+        public static void TimingStart()
+        {
+            if (stopwatch == null)
+            {
+                stopwatch = new Stopwatch();
+                stopwatch.Start();
+            }
+            else
+            {
+                stopwatch.Restart();
+            }
+        }
+        public static double TimingEnd()
+        {
+            stopwatch.Stop();
+            return stopwatch.Elapsed.TotalMilliseconds;
         }
     }
 }
