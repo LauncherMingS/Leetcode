@@ -47,8 +47,11 @@ namespace Leetcode
             //var _1910 = new _1910RemoveAllOccurrencesOfASubstring();
             //_1910.Test();
 
-            var _2342 = new _2342MaxSumOfAPairWithEqualSumOfDigits();
-            _2342.Test();
+            //var _2342 = new _2342MaxSumOfAPairWithEqualSumOfDigits();
+            //_2342.Test();
+
+            var _3066 = new _3066MinimumOperationsToExceedThresholdValueTwo();
+            _3066.Test();
 
             Console.Read();
         }
