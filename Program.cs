@@ -52,8 +52,11 @@ namespace Leetcode
             //var _2342 = new _2342MaxSumOfAPairWithEqualSumOfDigits();
             //_2342.Test();
 
-            var _3066 = new _3066MinimumOperationsToExceedThresholdValueTwo();
-            _3066.Test();
+            //var _3066 = new _3066MinimumOperationsToExceedThresholdValueTwo();
+            //_3066.Test();
+
+            var _1352 = new _1352ProductOfTheLastKNumbers();
+            _1352.Test();
 
             Console.Read();
         }
