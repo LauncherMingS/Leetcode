@@ -55,8 +55,11 @@ namespace Leetcode
             //var _3066 = new _3066MinimumOperationsToExceedThresholdValueTwo();
             //_3066.Test();
 
-            var _1352 = new _1352ProductOfTheLastKNumbers();
-            _1352.Test();
+            //var _1352 = new _1352ProductOfTheLastKNumbers();
+            //_1352.Test();
+
+            var _1079 = new _1079LetterTilePossibilities();
+            _1079.Test();
 
             Console.Read();
         }
