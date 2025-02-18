@@ -58,8 +58,11 @@ namespace Leetcode
             //var _1352 = new _1352ProductOfTheLastKNumbers();
             //_1352.Test();
 
-            var _1079 = new _1079LetterTilePossibilities();
-            _1079.Test();
+            //var _1079 = new _1079LetterTilePossibilities();
+            //_1079.Test();
+
+            var _2375 = new _2375ConstructSmallestNumberFromDIString();
+            _2375.Test();
 
             Console.Read();
         }
