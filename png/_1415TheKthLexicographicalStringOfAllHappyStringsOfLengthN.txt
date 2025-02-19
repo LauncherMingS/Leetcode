@@ -1,0 +1,55 @@
+n = 1
+a	0
+b	1
+c	2
+length(one row) = 1
+total length = 3 * 1 = 3
+
+n = 2
+ab, ac	01, 02
+ba, bc	10, 12
+ca, cb	20, 21
+length(one row) = 2
+total length = 3 * 2 = 6
+
+n = 3
+aba, abc, aca, acb	010, 012, 020, 021
+bab, bac, bca, bcb	101, 102, 120, 121
+cab, cac, cba, cbc	201, 202, 210, 212
+length(one row) = 2 * 2
+total length = 3 * 2 * 2 = 12
+
+n = 4
+abab, abac, abca, abcb, acab, acac, acba, acbc
+baba, babc, baca, bacb, bcab, bcac, bcba, bcbc
+caba, cabc, caca, cacb, cbab, cbac, cbca, cbcb
+length(one row) = 2 * 2 * 2			length(one row) = 2^(n - 1), 1 << (n - 1), (n - 1)Mathf.Pow(2, n - 1)
+total length = 3 * 2 * 2 * 2 = 12	total length = 3 * length(one row)
+
+input: n = 3, k = 9, length(one row) = 2^(3 - 1) = 4, 9(k) <= 12(total length)
+first letter:a[0](1 ~ 4)、b[1](5 ~ 8)、c[2](9 ~ 12)
+output: "cab"
+origin											after improvement
+quotient  = k / length							quotient = (k - 1) / length
+remainder = k % length							k = [(k - 1) % length] + 1
+k = remainder									length >>= 1
+if (remainder == 0) quotient - 1; k = length;
+length /= 2
+
+9 / 4 = 2										(9 - 1) / 4 = 2, quotient = 2 => c
+9 % 4 = 1, quotient = 2 => c					k = (9 - 1) % 4 + 1 = 1
+
+1 / 2 = 0										(1 - 1) / 2 = 0, quotient = 0 => a
+1 % 2 = 1, quotient = 0 => a					k = (1 - 1) % 2 + 1 = 1
+
+1 / 1 = 1										(1 - 1) / 1 = 0, quotient = 0 => b
+1 % 1 = 0, remainder == 0, quotient - 1 = 0, b
+
+
+a b c
+0 1 2
+previousLetter, quotient1 after1, quotient2 after2
+0, 0 1, 1 2 => quotient1 >= previousLetter, quotient1++. quotient2 >= previousLetter, quotient2++.
+1, 0 0, 1 2 => quotient1 < previousLetter, do nothing. quotient2 >= previousLetter, quotient2++.
+2, 0 0, 1 1 => quotient1 < previousLetter, do nothing. quotient2 < previousLetter, do nothing.
+

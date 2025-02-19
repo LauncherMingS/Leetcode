@@ -61,8 +61,11 @@ namespace Leetcode
             //var _1079 = new _1079LetterTilePossibilities();
             //_1079.Test();
 
-            var _2375 = new _2375ConstructSmallestNumberFromDIString();
-            _2375.Test();
+            //var _2375 = new _2375ConstructSmallestNumberFromDIString();
+            //_2375.Test();
+
+            var _1415 = new _1415TheKthLexicographicalStringOfAllHappyStringsOfLengthN();
+            _1415.Test();
 
             Console.Read();
         }
