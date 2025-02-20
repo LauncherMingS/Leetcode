@@ -10,6 +10,7 @@ namespace Leetcode
         private static Stopwatch stopwatch;
         static void Main(string[] args)
         {
+            #region
             //var _2017 = new _2017GridGame();
             //_2017.Test();
 
@@ -64,8 +65,12 @@ namespace Leetcode
             //var _2375 = new _2375ConstructSmallestNumberFromDIString();
             //_2375.Test();
 
-            var _1415 = new _1415TheKthLexicographicalStringOfAllHappyStringsOfLengthN();
-            _1415.Test();
+            //var _1415 = new _1415TheKthLexicographicalStringOfAllHappyStringsOfLengthN();
+            //_1415.Test();
+            #endregion
+
+            var _1980 = new _1980FindUniqueBinaryString();
+            _1980.Test();
 
             Console.Read();
         }
