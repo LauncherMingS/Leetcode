@@ -69,9 +69,12 @@ namespace Leetcode
             //_1415.Test();
 
             //var _1980 = new _1980FindUniqueBinaryString();
+
+            //var _1261 = new _1261FindElementsInAContaminatedBinaryTree();
             #endregion
 
-            var _1261 = new _1261FindElementsInAContaminatedBinaryTree();
+            var _2467 = new _2467MostProfitablePathInATree();
+            _2467.Test();
 
             Console.Read();
         }
