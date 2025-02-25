@@ -71,10 +71,13 @@ namespace Leetcode
             //var _1980 = new _1980FindUniqueBinaryString();
 
             //var _1261 = new _1261FindElementsInAContaminatedBinaryTree();
+
+            //var _2467 = new _2467MostProfitablePathInATree();
+            //_2467.Test();
             #endregion
 
-            var _2467 = new _2467MostProfitablePathInATree();
-            _2467.Test();
+            var _1524 = new _1524NumberOfSub_arraysWithOddSum();
+            _1524.Test();
 
             Console.Read();
         }
