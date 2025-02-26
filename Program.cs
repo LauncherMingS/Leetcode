@@ -74,10 +74,13 @@ namespace Leetcode
 
             //var _2467 = new _2467MostProfitablePathInATree();
             //_2467.Test();
+
+            //var _1524 = new _1524NumberOfSub_arraysWithOddSum();
+            //_1524.Test();
             #endregion
 
-            var _1524 = new _1524NumberOfSub_arraysWithOddSum();
-            _1524.Test();
+            var _1749 = new _1749MaximumAbsoluteSumOfAnySubarray();
+            _1749.Test();
 
             Console.Read();
         }
