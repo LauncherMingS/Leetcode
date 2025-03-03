@@ -77,10 +77,13 @@ namespace Leetcode
 
             //var _1524 = new _1524NumberOfSub_arraysWithOddSum();
             //_1524.Test();
+
+            //var _1749 = new _1749MaximumAbsoluteSumOfAnySubarray();
+            //_1749.Test();
             #endregion
 
-            var _1749 = new _1749MaximumAbsoluteSumOfAnySubarray();
-            _1749.Test();
+            var _873 = new _873LengthOfLongestFibonacciSubsequence();
+            _873.Test();
 
             Console.Read();
         }
