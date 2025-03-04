@@ -83,10 +83,13 @@ namespace Leetcode
 
             //var _873 = new _873LengthOfLongestFibonacciSubsequence();
             //_873.Test();
+
+            //var _2161 = new _2161PartitionArrayAccordingToGivenPivot();
+            //_2161.Test();
             #endregion
 
-            var _2161 = new _2161PartitionArrayAccordingToGivenPivot();
-            _2161.Test();
+            var _1780 = new _1780CheckIfNumberIsASumOfPowersOfThree();
+            _1780.Test();
 
             Console.Read();
         }
