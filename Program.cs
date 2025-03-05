@@ -86,10 +86,13 @@ namespace Leetcode
 
             //var _2161 = new _2161PartitionArrayAccordingToGivenPivot();
             //_2161.Test();
+
+            //var _1780 = new _1780CheckIfNumberIsASumOfPowersOfThree();
+            //_1780.Test();
             #endregion
 
-            var _1780 = new _1780CheckIfNumberIsASumOfPowersOfThree();
-            _1780.Test();
+            var _2579 = new _2579CountTotalNumberOfColoredCells();
+            _2579.Test();
 
             Console.Read();
         }
