@@ -89,10 +89,13 @@ namespace Leetcode
 
             //var _1780 = new _1780CheckIfNumberIsASumOfPowersOfThree();
             //_1780.Test();
+
+            //var _2579 = new _2579CountTotalNumberOfColoredCells();
+            //_2579.Test();
             #endregion
 
-            var _2579 = new _2579CountTotalNumberOfColoredCells();
-            _2579.Test();
+            var _2965 = new _2965FIndMissingAndRepeatedValues();
+            _2965.Test();
 
             Console.Read();
         }
