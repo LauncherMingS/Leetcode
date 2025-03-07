@@ -92,10 +92,13 @@ namespace Leetcode
 
             //var _2579 = new _2579CountTotalNumberOfColoredCells();
             //_2579.Test();
+
+            //var _2965 = new _2965FIndMissingAndRepeatedValues();
+            //_2965.Test();
             #endregion
 
-            var _2965 = new _2965FIndMissingAndRepeatedValues();
-            _2965.Test();
+            var _2523 = new _2523ClosestPrimeNumbersInRange();
+            _2523.Test();
 
             Console.Read();
         }
