@@ -95,10 +95,13 @@ namespace Leetcode
 
             //var _2965 = new _2965FIndMissingAndRepeatedValues();
             //_2965.Test();
+
+            //var _2523 = new _2523ClosestPrimeNumbersInRange();
+            //_2523.Test();
             #endregion
 
-            var _2523 = new _2523ClosestPrimeNumbersInRange();
-            _2523.Test();
+            var _3306 = new _3306CountOfSubstringsContainingEveryVowelAndKConsonantsTwo();
+            _3306.Test();
 
             Console.Read();
         }
