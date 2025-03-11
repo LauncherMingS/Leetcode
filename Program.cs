@@ -98,10 +98,13 @@ namespace Leetcode
 
             //var _2523 = new _2523ClosestPrimeNumbersInRange();
             //_2523.Test();
+
+            //var _3306 = new _3306CountOfSubstringsContainingEveryVowelAndKConsonantsTwo();
+            //_3306.Test();
             #endregion
 
-            var _3306 = new _3306CountOfSubstringsContainingEveryVowelAndKConsonantsTwo();
-            _3306.Test();
+            var _1358 = new _1358NumberOfSubstringsContainingAllThreeCharacters();
+            _1358.Test();
 
             Console.Read();
         }
