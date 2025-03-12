@@ -101,10 +101,13 @@ namespace Leetcode
 
             //var _3306 = new _3306CountOfSubstringsContainingEveryVowelAndKConsonantsTwo();
             //_3306.Test();
+
+            //var _1358 = new _1358NumberOfSubstringsContainingAllThreeCharacters();
+            //_1358.Test();
             #endregion
 
-            var _1358 = new _1358NumberOfSubstringsContainingAllThreeCharacters();
-            _1358.Test();
+            var _2529 = new _2529MaximumCountOfPostiveIntegerAndNegativeInteger();
+            _2529.Test();
 
             Console.Read();
         }
