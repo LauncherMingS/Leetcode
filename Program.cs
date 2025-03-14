@@ -104,10 +104,13 @@ namespace Leetcode
 
             //var _1358 = new _1358NumberOfSubstringsContainingAllThreeCharacters();
             //_1358.Test();
+
+            //var _2529 = new _2529MaximumCountOfPostiveIntegerAndNegativeInteger();
+            //_2529.Test();
             #endregion
 
-            var _2529 = new _2529MaximumCountOfPostiveIntegerAndNegativeInteger();
-            _2529.Test();
+            var _2226 = new _2226MaximumCandiesAllocatedToKChildren();
+            _2226.Test();
 
             Console.Read();
         }
